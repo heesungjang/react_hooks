@@ -7,6 +7,8 @@ function Board() {
   // 🐨 squares is the state for this component. Add useState for squares
   const squares = Array(9).fill(null)
 
+  console.log(squares)
+
   // 🐨 We'll need the following bits of derived state:
   // - nextValue ('X' or 'O')
   // - winner ('X', 'O', or null)
